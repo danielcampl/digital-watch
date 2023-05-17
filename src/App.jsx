@@ -5,8 +5,8 @@ import {
   Routes,
 } from "react-router-dom";
 
-import Clock from './pages/Clock';
-import Timer from './pages/Timer';
+import Clock from './pages/clock/Clock';
+import Timer from './pages/timer/Timer';
 import './styles/App.css';
 
 export default function App() {

@@ -1,5 +1,5 @@
 // import styled from "styled-components";
-import Navbar from "../components/Nav";
+import Navbar from "../../components/Nav";
 
 function Timer() {
   return (
