@@ -5,16 +5,14 @@ import {
   Routes,
 } from "react-router-dom";
 
-import Clock from './pages/clock/Clock';
-import Timer from './pages/timer/Timer';
+import Home from './pages/Home';
 import './styles/App.css';
 
 export default function App() {
   return (
     <Router>
       <Routes>
-        <Route exact path="/" element={<Clock />} />
-        <Route path="/timer" element={<Timer />} />
+        <Route exact path='/' Component={Home} />
       </Routes>
     </Router>
   );
