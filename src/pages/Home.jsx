@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-import '../styles/Home.css';
+import '../globals/Home.css';
 import Avatar from '../assets/images/avatar.png';
 import Layout from "../components/Layout";
 import { Link } from "react-router-dom";

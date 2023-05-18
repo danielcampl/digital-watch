@@ -5,10 +5,10 @@ import {
   Routes,
 } from "react-router-dom";
 
-import './styles/App.css';
+import './globals/App.css';
 import Home from './pages/Home';
-import Timer from './pages/Timer';
-import Clock from './pages/Clock';
+import Timer from './pages/timer/Timer';
+import Clock from './pages/clock/Clock';
 
 export default function App() {
   return (
