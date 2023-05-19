@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 
 import '../globals/Home.css';
-import Avatar from '../assets/images/avatar.png';
 import Layout from "../components/Layout";
 import { Link } from "react-router-dom";
 
@@ -14,9 +13,7 @@ const Img = styled.img`
   position: relative;
 `;
 
-const Div = styled.div`
-  margin-top: 257px;
-`;
+const Div = styled.div``;
 
 const ListPages = styled.ul`
   display: flex;
@@ -67,7 +64,6 @@ export default function Home() {
                         </Link>
                     </ListPages>
                 </Nav>
-                <Img src={Avatar} />
             </Div>
         </Layout>
     );

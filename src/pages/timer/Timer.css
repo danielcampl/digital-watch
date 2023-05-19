@@ -1,0 +1,27 @@
+label, #hour, #min, #sec, #timer{
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+input {
+    width: 50px;
+    border: none;
+    background-color: bisque;
+    padding-left: 20px;
+}
+
+#timer{
+    font-size: 48px;
+}
+
+.block {
+    display: flex;
+    gap: 4px;
+}
+
+span{
+    font-size: 48px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 600;
+}

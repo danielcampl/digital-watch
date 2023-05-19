@@ -3,20 +3,17 @@
     font-size: 48px;
     gap: 80px;
     padding: 90px 140px;
-    /* background: #00b4d892; */
-    /* border-radius: 40px;
-    box-shadow: 10px 10px 20px rgba(25, 26, 27, 0.857); */
-    font-family: 'IBM Plex Mono', monospace;
+    color: #292929;
 }
 
 .relogio div{
     display: flex;
     flex-direction: column;
     gap: 50px;
-    background: #e9c46a;
-    border: 1px solid #8eeeffb5;
+    background: #e9c56ab0;
+    border: none;
     padding: 90px;
     border-radius: 40px;
-    box-shadow: 10px 10px 10px rgba(25, 26, 27, 0.857);
-    font-family: 'IBM Plex Mono', monospace;
+    box-shadow: 10px 10px 10px rgba(54, 57, 60, 0.857);
+    font-family: 'Press Start 2P', cursive;
 }
